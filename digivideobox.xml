@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="content" method="upgrade">
+    <name>Digi Videobox</name>
+	<author>F.Galuppi - Digitest.net</author>
+	<creationDate>May 2025</creationDate>
+	<copyright>Copyright (C) 2024 - 2028 Digitest.net. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>public2@digitest.net</authorEmail>
+	<authorUrl>www.digitest.net</authorUrl>
+    <version>1.0.2</version>
+    <description>Embed YouTube Videos</description>
+    <files>
+        <filename plugin="digivideobox">digivideobox.php</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field
+                    name="opacity"
+                    type="number"
+                    default="0.9"
+                    label="Modal Opacity"
+                    min="0"
+                    max="1"
+                    step="0.1"
+                />
+            </fieldset>
+        </fields>
+    </config>
+</extension>
