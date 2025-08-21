@@ -66,6 +66,36 @@ JS
                 left: 50%;
                 transform: translate(-50%, -50%);
             }
+            .digi-videobox-thumb-container {
+                position: relative;
+                display: inline-block;
+            }
+            .digi-videobox-play-btn {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 64px;
+            height: 64px;
+            background: rgba(0,0,0,0.35);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .digi-videobox-play-btn:after {
+            content: '';
+            display: block;
+            margin-left: 8px;
+            width: 0; height: 0;
+            border-top: 18px solid transparent;
+            border-bottom: 18px solid transparent;
+            border-left: 28px solid white;
+        }
+        .digi-videobox-thumb-container:hover .digi-videobox-play-btn {
+            background: rgba(0,0,0,0.55);
+        }
         ");
 
         return '
