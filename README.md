@@ -1,2 +1,2 @@
 # digi-videobox
-Plugin for Video in Article (Video on YouTube)
+Jooma Plugin for Video in Contents (Video on YouTube)
